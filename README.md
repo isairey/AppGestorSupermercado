@@ -6,6 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
 # 🛒 Gestor de Supermercado — Laravel
 
 Sistema web desarrollado en **Laravel** para la administración integral de supermercados, permitiendo gestionar productos, inventario, ventas, proveedores y usuarios desde una plataforma centralizada.
