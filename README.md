@@ -106,7 +106,7 @@ public/
 1. Clonar el repositorio:
 
 ```bash id="t3r8sa"
-git clone https://github.com/TU-USUARIO/gestor-supermercado.git
+git clone https://github.com/isairey/AppGestorSupermercado.git
 ```
 
 2. Acceder al proyecto:
