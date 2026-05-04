@@ -112,7 +112,7 @@ git clone https://github.com/isairey/AppGestorSupermercado.git
 2. Acceder al proyecto:
 
 ```bash id="z1k6bd"
-cd gestor-supermercado
+cd AppGestorSupermercado
 ```
 
 3. Instalar dependencias:
