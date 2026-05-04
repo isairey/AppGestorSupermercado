@@ -186,5 +186,5 @@ Desarrollador enfocado en sistemas empresariales y soluciones web 🚀
 
 ## 📜 Licencia
 
-Proyecto de uso libre para fines educativos y comerciales.
+License MIT.
 
