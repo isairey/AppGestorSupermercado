@@ -6,54 +6,184 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+# 🛒 Gestor de Supermercado — Laravel
 
-## About Laravel
+Sistema web desarrollado en **Laravel** para la administración integral de supermercados, permitiendo gestionar productos, inventario, ventas, proveedores y usuarios desde una plataforma centralizada.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Descripción
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+El **Gestor de Supermercado** es una aplicación diseñada para optimizar las operaciones comerciales dentro de un supermercado o tienda, facilitando el control de inventario, registro de ventas y gestión de recursos.
 
-## Learning Laravel
+El sistema permite automatizar procesos clave, reducir errores manuales y mejorar la toma de decisiones mediante reportes en tiempo real.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🎯 Características principales
 
-## Laravel Sponsors
+* 📦 **Gestión de productos**
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+  * Registro, edición y eliminación
+  * Control de precios y categorías
 
-### Premium Partners
+* 🏷️ **Inventario**
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+  * Control de stock en tiempo real
+  * Alertas de productos bajos
 
-## Contributing
+* 🧾 **Ventas**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  * Registro de ventas
+  * Generación de tickets
+  * Historial de transacciones
 
-## Code of Conduct
+* 🚚 **Proveedores**
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  * Registro y gestión de proveedores
+  * Control de compras
 
-## Security Vulnerabilities
+* 👤 **Usuarios y roles**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+  * Administrador
+  * Cajero
+  * Empleado
+  * Control de permisos
 
-## License
+* 📊 **Reportes**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+  * Ventas por día, semana o mes
+  * Productos más vendidos
+  * Control financiero básico
+
+* 🔐 **Autenticación**
+
+  * Login seguro
+  * Protección de rutas
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* 🧠 **Laravel (PHP)**
+* 🎨 Blade, HTML5, CSS3, JavaScript
+* 🗄️ MySQL
+* ⚙️ Eloquent ORM
+* 🔐 Middleware de autenticación
+
+---
+
+## 📂 Estructura del proyecto
+
+```bash id="p9x2lm"
+app/
+│
+├── Models/
+├── Http/
+│   ├── Controllers/
+│   └── Middleware/
+│
+resources/
+├── views/
+│   └── layouts/
+│
+routes/
+│   └── web.php
+│
+database/
+│   ├── migrations/
+│   └── seeders/
+│
+public/
+└── README.md
+```
+
+---
+
+## ⚙️ Instalación
+
+1. Clonar el repositorio:
+
+```bash id="t3r8sa"
+git clone https://github.com/TU-USUARIO/gestor-supermercado.git
+```
+
+2. Acceder al proyecto:
+
+```bash id="z1k6bd"
+cd gestor-supermercado
+```
+
+3. Instalar dependencias:
+
+```bash id="m4n7op"
+composer install
+npm install
+```
+
+4. Configurar variables de entorno:
+
+```bash id="x8q2wr"
+cp .env.example .env
+php artisan key:generate
+```
+
+5. Configurar la base de datos en `.env`
+
+6. Ejecutar migraciones:
+
+```bash id="j9v3el"
+php artisan migrate --seed
+```
+
+7. Iniciar servidor:
+
+```bash id="h5u1cs"
+php artisan serve
+```
+
+8. Acceder desde:
+
+```bash id="b2d7xy"
+http://localhost:8000
+```
+
+---
+
+## 🧪 Uso del sistema
+
+1. Iniciar sesión en el sistema
+2. Registrar productos y categorías
+3. Gestionar inventario
+4. Realizar ventas
+5. Consultar reportes
+
+---
+
+## 📈 Objetivo del proyecto
+
+Brindar una solución eficiente para la administración de supermercados, mejorando la organización interna y optimizando el control de ventas e inventario.
+
+---
+
+## 🔮 Mejoras futuras
+
+* Integración con lectores de código de barras
+* Facturación electrónica
+* Reportes gráficos avanzados
+* Sistema de promociones y descuentos
+* API REST para integración externa
+
+---
+
+## 👨‍💻 Autor
+
+**Isai Reyes**
+Desarrollador enfocado en sistemas empresariales y soluciones web 🚀
+
+---
+
+## 📜 Licencia
+
+Proyecto de uso libre para fines educativos y comerciales.
+
